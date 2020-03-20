@@ -1,63 +1,64 @@
 #include<iostream>
 #include<queue>
 using namespace std;
-int farm[1001][1001];
-int test_y[4]={-1,0,1,0};
-int test_x[4]={0,1,0,-1};
+
+int Y[4]={0,1,0,-1};
+int X[4]={1,0,-1,0};
+int box[1000][1000];
 int main(){
-    cin.sync_with_stdio(false);
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int h,w;
+    cin>>w>>h;
+
+    queue<pair<int,int>> q;
     
-    queue<pair<int,int>> Ripe;
-    int M,N;
-    int RipeCount=0;
-    int empty=0;
-    cin>>M>>N;
-    for(int j=0;j<N;j++)
+    int XRipeTomatoCount=0;//익지 않은 토마토 수
+    for(int i=0;i<h;i++)
     {
-        for(int i=0;i<M;i++)
+        for(int j=0;j<w;j++)
         {
-            cin>>farm[j][i];
-            if(farm[j][i]==1)
+            cin>>box[i][j];
+            if(box[i][j]==1)
             {
-                Ripe.push(make_pair(j,i)); 
-                RipeCount++;
+                q.push(make_pair(i,j));
             }
-            else if(farm[j][i]==-1) empty++;
+            else if(box[i][j]==0)
+                XRipeTomatoCount++;
         }
     }
-    
-    int x,y;
-    int count=0;
-    int answer=0;
-    int queue_size=0;
-    while(!Ripe.empty())
+
+    int answer=1;
+
+    while(!q.empty())
     {
-        count=0;
-        queue_size=Ripe.size();
-        while(queue_size>0)
+        for(int i=0;i<4;i++)
         {
-            queue_size--;
-            y=Ripe.front().first;
-            x=Ripe.front().second;
-            Ripe.pop();
-            for(int i=0;i<4;i++)
+            int y = q.front().first + Y[i];
+            int x = q.front().second + X[i];
+            if(y>=0 && x>=0 && y<h && x<w)
             {
-                if(test_y[i]+y>=0 && test_y[i]+y<N && test_x[i]+x>=0 && test_x[i]+x<M)
+                if(box[y][x]==0)
                 {
-                    if(farm[test_y[i]+y][test_x[i]+x]==0)
-                    {
-                        farm[test_y[i]+y][test_x[i]+x]=1;
-                        count++;
-                        RipeCount++;
-                        Ripe.push(make_pair(test_y[i]+y,test_x[i]+x));
-                    }
+                    box[y][x]= box[q.front().first][q.front().second]+1;
+                    if(answer<box[y][x])
+                        answer = box[y][x];
+                    XRipeTomatoCount--;
+                    q.push(make_pair(y,x));
                 }
             }
         }
-        if(count>0)answer++;      
+        q.pop();
+    }
+    if(XRipeTomatoCount==0)
+    {
+        cout<<answer-1;
+    }
+    else
+    {
+        cout<<-1;
     }
     
-    if(RipeCount+empty!=N*M) cout<<-1;
-    else cout<<answer;
     return 0;
 }
