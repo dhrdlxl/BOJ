@@ -4,6 +4,7 @@ public class BOJ_1110 {
     {
         Scanner sc = new Scanner(System.in);
         int target = sc.nextInt();
+        sc.close();
         int answer = 0;
         int num = -1;
         int copyTarget = target;
