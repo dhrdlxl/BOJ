@@ -1,0 +1,399 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1062<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1062",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1110<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1110",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_11725<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_11725",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_12100<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_12100",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1212<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1212",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_12886<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_12886",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1309<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1309",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1316<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1316",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1339<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1339",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1339_2<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1339_2",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_13458<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_13458",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1373<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1373",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_14225<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_14225",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_14442<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_14442",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_14499<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_14499",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_14501<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_14501",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_14502<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_14502",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_14503<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_14503",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_14888<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_14888",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_14891<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_14891",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_15658<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_15658",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_15661<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_15661",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_15686<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_15686",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_16197<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_16197",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_16198<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_16198",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_16928<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_16928",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_16929<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_16929",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_16946<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_16946",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_16948<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_16948",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_17087<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_17087",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_17103<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_17103",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_17136<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_17136",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1753<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1753",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1780<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1780",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_19236<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_19236",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1932<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1932",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_19561<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_19561",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1966<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1966",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1987<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1987",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1991<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1991",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_1992<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_1992",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_2089<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_2089",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_2133<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_2133",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_2250<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_2250",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_2294<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_2294",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_2529<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_2529",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_2580<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_2580",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_3085<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_3085",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_3190<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_3190",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_4574<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_4574",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_6603<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_6603",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_7562<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_7562",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_9019<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_9019",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_9663<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_9663",
+            "projectName": "BOJ_3c95e3f5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ_9663_2<BOJ_3c95e3f5>",
+            "request": "launch",
+            "mainClass": "BOJ_9663_2",
+            "projectName": "BOJ_3c95e3f5"
+        }
+    ]
+}
